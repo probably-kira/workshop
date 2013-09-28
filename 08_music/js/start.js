@@ -20,7 +20,7 @@ requirejs.config({
 	paths: {
 		hero: '../layouts/hero',
 		phy: '../utils/box2dweb_definitions',
-		stats: '../utils/Stats',
+		stats: '../utils/stats',
 		entity: '../utils/entity',
 		bg: '../layouts/bg',
 		loader: '../utils/loader',

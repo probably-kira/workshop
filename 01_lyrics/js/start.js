@@ -9,7 +9,8 @@ requirejs.config({
 		bg: '../layouts/bg',
 		hero: '../layouts/hero',
 		loader: '../utils/loader',
-		stats: '../utils/Stats'
+		stats: '../utils/stats'
+		
 	}
 });
 
