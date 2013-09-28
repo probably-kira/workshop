@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="example.js"></script>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			background: #F7F3ED;
+			color: #333;
+			font-size: 70%;
+		}
+		#ball {
+			border-radius: 150px;
+			border: 150px solid #fff;
+			position: absolute;
+			left: 50%;
+			margin-left: -150px;
+			top: 50%;
+			margin-top: -150px;
+		}
+		label {
+			display: block;
+			font-size: 20px;
+			line-height: 30px;
+			padding: 0 50px 10px 50px;
+		}
+		h1 {
+			font-size: 40px;
+			text-align: center;
+		}
+
+		.container {
+			background: #38C9C0;
+			width: 500px;
+			height: 500px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		form {
+			width: 250px;
+			margin-left: -250px;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Guess the color!</h1>
+	<div class="container">
+		<form id="selected-color">
+			<label style="color: #459fda"><input type="radio" name="color" value="459fda" /> Blue</label>
+			<label style="color: #F7021F"><input type="radio" name="color" value="F7021F" /> Red</label>
+			<label style="color: #1FBA04"><input type="radio" name="color" value="1FBA04" /> Green</label>
+			<label style="color: #F5EE25"><input type="radio" name="color" value="F5EE25" /> Yellow</label>
+			<label style="color: #FA2FAC"><input type="radio" name="color" value="FA2FAC" /> Pink</label>
+			<label style="color: #F59631"><input type="radio" name="color" value="F59631" /> Orange </label>
+			<label style="color: #000000"><input type="radio" name="color" value="000000" /> Black</label>
+			<input type="submit" value="Play!">
+		</form>
+		<div id="ball"></div>
+	</div>
+</body>
+</html>
